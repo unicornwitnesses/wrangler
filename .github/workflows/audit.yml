@@ -8,8 +8,8 @@ on:
       - "**/Cargo.lock"
       - "**/package-lock.json"
       - "**/npm-shrinkwrap.json"
-  schedule:
-    - cron: "0 0 * * *"
+#   schedule:
+#     - cron: "0 0 * * *"
 
 jobs:
   security_audit:
